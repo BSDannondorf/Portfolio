@@ -1,4 +1,5 @@
 import './App.css'
+import IMG from './assets/IMG_3776.jpg'
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
   {/* <!-- PROFILE SECTION --> */}
   <section id="profile">
     <div class="section__pic-container">
-      <img src="/src/assets/IMG_3776.jpg" alt="Daniel Walker profile picture" />
+      <img src={IMG} alt="Daniel Walker profile picture" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
